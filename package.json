@@ -1,6 +1,6 @@
 {
 	"name": "autographa",
-	"version": "0.1.0",
+	"version": "0.1.11",
 	"author": "Friends of Agape <mathew.joel@protonmail.com>",
 	"license": "MIT",
 	"main": "public/electron.js",
@@ -45,7 +45,7 @@
 		"appId": "oa.autographa.live",
 		"publish": {
 			"provider": "github",
-			"token": "4e396dbc95516cd8eaeb091714f2e2d23ca62f5e"
+			"token": "ad64f006f88868d1fa1ce3c6956e310f417befbf"
 		},
 		"files": [
 			"build/**/*.*",
@@ -93,7 +93,8 @@
 		"preelectron-pack": "npm run build",
 		"maxmemory-allocation": "NODE_OPTIONS=--max_old_space_size=4096",
 		"eslint:github-action": "node ./node_modules/eslint/bin/eslint . --ignore-path .gitignore --max-warnings 0",
-		"electron-pack": "electron-builder -p never"
+		"electron-pack": "electron-builder -p never",
+		"deploy": "electron-builder build --win --publish always"
 	},
 	"jest": {
 		"moduleNameMapper": {
