@@ -4,13 +4,14 @@ import InfoIcon from "@material-ui/icons/Info";
 import { makeStyles } from "@material-ui/core/styles";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
-
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
 import PropTypes from "prop-types";
 import { Observer } from "mobx-react";
 import AutographaStore from "./AutographaStore";
 import { IconButton } from "@material-ui/core";
+import {version} from "../../package.json";
+import { FormattedMessage } from 'react-intl';
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -87,30 +88,17 @@ const About = (props) => {
   };
 
   const tabOneBody = (
-    <div>
-      <div className={classes.col_xs_6}>
-        <img
-          className={classes.image}
-          src={require("../assets/images/autographa_large.png")}
-          alt="Autographa Logo"
-          width="215"
-          height="200"
-        />
-      </div>
-      <div className={classes.col_xs_6} style={{ padding: "5px" }}>
-        <h3>
-          Autographa
-          {/* <FormattedMessage id='app-name' /> */}
-        </h3>
-        <p>
-          0.0.1
-          {/* <FormattedMessage id='label-version' />{' '} */}
-          {/* <span>{version}</span> */}
-        </p>
-        <p>{/* <FormattedMessage id='label-hosted-url' /> */}</p>
-        <p>https://github.com/friendsofagape/autographa.git</p>
-      </div>
-    </div>
+    <Typography>
+                        <Typography className="col-xs-6">
+                            <img src={require("../assets/images/autographa_large.png")} className="img-circle" alt="Autographa Logo" width="215" height="200" />
+                        </Typography>
+        <Typography className="col-xs-6" style={{padding:"5px"}}>
+                            <h3 style={{color:"white"}}>Autographa Updated Version</h3>
+                            <Typography color="textPrimary"><FormattedMessage id="label-version" /> <span style={{color:"white"}}> { version } </span></Typography>
+        <Typography color="textPrimary"><FormattedMessage id="label-hosted-url" /></Typography>
+	<Typography color="textPrimary"> https://github.com/friendsofagape/autographa-lite.git </Typography>
+                        </Typography>
+                    </Typography>
   );
 
   const tabTwoBody = (

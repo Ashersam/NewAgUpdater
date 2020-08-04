@@ -19,6 +19,8 @@ import DiffChecker from "./DiffChecker";
 import TranslationHelp from "../TranslationHelp/TranslationHelp";
 import Download from "../Download/Download";
 import Sync from "../Sync/Sync";
+import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { Observer } from "mobx-react";
 const db = require(`${__dirname}/../../core/data-provider`).targetDb();
 
@@ -45,6 +47,17 @@ const useStyles = makeStyles((theme) => ({
 
 export default function PrimarySearchAppBar() {
   const classes = useStyles();
+  const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
+
+  const theme = React.useMemo(
+    () =>
+      createMuiTheme({
+        palette: {
+          type: prefersDarkMode ? 'dark' : 'light',
+        },
+      }),
+    [prefersDarkMode],
+  );
 
   const mountAudio = () => {
     if (AutographaStore.toggle !== true) {
@@ -76,6 +89,7 @@ export default function PrimarySearchAppBar() {
     <Observer>
       {() => (
         <React.Fragment>
+           <ThemeProvider theme={theme}>
           <div className={classes.grow}>
             <AppBar position="static">
               <Toolbar>
@@ -119,6 +133,7 @@ export default function PrimarySearchAppBar() {
             </AppBar>
           </div>
           <SetUp />
+          </ThemeProvider>
         </React.Fragment>
       )}
     </Observer>
