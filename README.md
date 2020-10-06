@@ -128,6 +128,6 @@ Let us know if face any bugs/problems by opening an [issue](https://github.com/f
 [contributors-shield]: https://img.shields.io/github/contributors/friendsofagape/autographa.svg?style=flat-square
 [contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
 [issues-shield]: https://img.shields.io/github/issues/friendsofagape/autographa.svg?style=flat-square
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[issues-url]: https://github.com/friendsofagape/autographa/issues
 [license-shield]: https://img.shields.io/github/license/friendsofagape/autographa.svg?style=flat-square
 [license-url]: https://github.com/friendsofagape/autographa/blob/main/LICENSE
