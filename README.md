@@ -103,7 +103,7 @@ Usage: logger.[level]("<filename>, <message>")
   * [React Testing Library](https://jestjs.io/docs/en/getting-started)
 6. Run `npm run lint:fix` for code to adapt our linting rules 
 7. Commit your Changes (`git commit -m 'Add some NewFeatures'`)
-8. Push to the Branch (`git push origin feature/AmazingFeature`)
+8. Push to the Branch (`git push origin feature/NewFeature`)
 9. Open a Pull Request and make sure all checks passed
 
 
@@ -117,8 +117,8 @@ This project is licensed under the GNU GENERAL PUBLIC LICENSE (Version 3) Licens
 Friends of Agape - mathew.joel@protonmail.com
 Let us know if face any bugs/problems by opening an [issue](https://github.com/friendsofagape/autographa/issues) in GitHub. We'll do our best to be prompt in our response. 
 
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
 * [Friends of Agape](http://friendsofagape.org/), for their support and contributions.
 
 
@@ -127,7 +127,7 @@ Let us know if face any bugs/problems by opening an [issue](https://github.com/f
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/friendsofagape/autographa.svg?style=flat-square
 [contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
+[issues-shield]: https://img.shields.io/github/issues/friendsofagape/autographa.svg?style=flat-square
 [issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[license-shield]: https://img.shields.io/github/license/friendsofagape/autographa.svg?style=flat-square
+[license-url]: https://github.com/friendsofagape/autographa/blob/main/LICENSE
