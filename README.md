@@ -1,9 +1,7 @@
-
+<!-- PROJECT SHIELDS -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -119,6 +117,17 @@ This project is licensed under the GNU GENERAL PUBLIC LICENSE (Version 3) Licens
 Friends of Agape - mathew.joel@protonmail.com
 Let us know if face any bugs/problems by opening an [issue](https://github.com/friendsofagape/autographa/issues) in GitHub. We'll do our best to be prompt in our response. 
 
-
+<!-- Acknowledgments -->
 ## Acknowledgments
 * [Friends of Agape](http://friendsofagape.org/), for their support and contributions.
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
+[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
+[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
