@@ -77,7 +77,7 @@ This is an example of how to list things you need to use the software and how to
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/friendsofagape/autographa/projects/1) for a list of proposed features (and known issues).
+See the [autogrpaha projects](https://github.com/friendsofagape/autographa/projects/1) for a list of proposed features (and known issues).
 
 
 <!-- CONTRIBUTING -->
@@ -90,61 +90,35 @@ We really value our contributors whether they helped fix a bug, built a feature,
 The process for submitting pull requests.
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/NewFeature`)
-3. After adding features make sure you write test for that using:
+3. Make sure your write logger as you make changes
+```
+Logger level: 
+Production => warn
+Development => debug
+```
+```
+Usage: logger.[level]("<filename>, <message>")
+```
+4. Add nessesary propTypes for all the properties passed to react component (`https://github.com/facebook/prop-types`)
+5. After adding features make sure you write test for that using:
   * [Jest](https://testing-library.com/docs/react-testing-library/intro)
   * [React Testing Library](https://jestjs.io/docs/en/getting-started)
-3. Commit your Changes (`git commit -m 'Add some NewFeatures'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
+6. Run `npm run lint:fix` for code to adapt our linting rules 
+7. Commit your Changes (`git commit -m 'Add some NewFeatures'`)
+8. Push to the Branch (`git push origin feature/AmazingFeature`)
+9. Open a Pull Request and make sure all checks passed
 
 
 <!-- LICENSE -->
 ## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
+This project is licensed under the GNU GENERAL PUBLIC LICENSE (Version 3) License. See [LICENSE](https://github.com/friendsofagape/autographa-live/blob/master/LICENSE) for more details.
 
 
 <!-- CONTACT -->
 ## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Friends of Agape - mathew.joel@protonmail.com
+Let us know if face any bugs/problems by opening an [issue](https://github.com/friendsofagape/autographa/issues) in GitHub. We'll do our best to be prompt in our response. 
 
 
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
-
-
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+## Acknowledgments
+* [Friends of Agape](http://friendsofagape.org/), for their support and contributions.
