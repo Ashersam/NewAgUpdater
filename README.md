@@ -7,7 +7,7 @@
 <br />
 <p align="center">
   <a href="">
-    <img src="https://github.com/friendsofagape/autographa/blob/master/resources/icon.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/friendsofagape/autographa/blob/main/resources/agicon.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Autographa</h3>
@@ -32,7 +32,6 @@
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
-* [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
 * [License](#license)
